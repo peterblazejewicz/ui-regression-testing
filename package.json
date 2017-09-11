@@ -23,7 +23,7 @@
         "node": "8"
     },
     "scripts": {
-        "backstop:compare": "backstop compare",
+        "backstop:compare": "backstop test",
         "backstop:reference": "backstop reference",
         "build": "run-s clean sass autoprefixer minify",
         "clean": "rimraf dist",
