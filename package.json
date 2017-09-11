@@ -23,6 +23,8 @@
         "node": "8"
     },
     "scripts": {
+        "backstop:compare": "backstop compare",
+        "backstop:reference": "backstop reference",
         "build": "run-s clean sass autoprefixer minify",
         "clean": "rimraf dist",
         "sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js --output-style expanded --source-map true --source-map-contents true --precision 6 src/casper.scss dist/casper.css",
