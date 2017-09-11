@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/peterblazejewicz/ui-regression-testing.git",
-  "author": "Peter Blazejewicz <peter.blazejewicz@gmail.com>",
+  "author": "Peter Blazejewicz",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
@@ -14,5 +14,8 @@
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1",
     "sass-lint": "^1.11.1"
+  },
+  "engines": {
+      "node": "8"
   }
 }
